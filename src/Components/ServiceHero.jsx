@@ -1,4 +1,5 @@
 import AiMarketing from "../assets/AiMarketing.png";
+import Dot from "./Dot";
 const ServiceHero = () => {
   return (
     <div className=" bg-black">
@@ -21,7 +22,14 @@ const ServiceHero = () => {
       <div className=" bg-[#080808] py-28">
         <div className="max-w-5xl md:mx-10 mx-5 2xl:max-w-full 2xl:mx-40">
           <div className=" grid md:grid-cols-2 gap-10 items-center  text-white">
-            <img src={AiMarketing} alt="" />
+            <div className=" relative">
+              <div className="">
+                <img src={AiMarketing} alt="" />
+                <div className="">
+                  <Dot />
+                </div>
+              </div>
+            </div>
             <div className=" font-Oxanium">
               <p className=" font-[500]  text-[18px] lg:text-[48px] text-[#FCD82B] lg:leading-[50px] py-5">
                 Digital PR: Building Your Digital Narrative
@@ -55,11 +63,21 @@ const ServiceHero = () => {
                 Book a Call
               </p>
             </div>
-            <img src={AiMarketing} alt="" />
+            <div className=" relative">
+              <img src={AiMarketing} alt="" />
+              <div className="">
+                <Dot />
+              </div>
+            </div>
           </div>
 
           <div className=" grid md:grid-cols-2 gap-10 items-start  text-white">
-            <img src={AiMarketing} alt="" />
+            <div className=" relative">
+              <img src={AiMarketing} alt="" />
+              <div className="">
+                <Dot />
+              </div>
+            </div>
             <div className=" font-Oxanium">
               <p className=" font-[500]  text-[18px] lg:text-[48px] text-[#FCD82B] lg:leading-[50px] py-5">
                 Digital PR: Building Your Digital Narrative

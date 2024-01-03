@@ -4,6 +4,7 @@ import Team2 from "../assets/Team2.png";
 import Team3 from "../assets/Team3.png";
 import ArrowTarget from "../assets/ArrowTarget.png";
 import Values from "../assets/Values.png";
+import Dot from "./Dot";
 const AboutHero = () => {
   return (
     <div className=" bg-black">
@@ -21,7 +22,12 @@ const AboutHero = () => {
       <div className=" bg-[#080808] py-28">
         <div className="max-w-5xl md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40">
           <div className="grid gap-10 items-center   sm:grid sm:grid-cols-2 md:mx-10 lg:mx-0  text-white">
-            <img src={ArrowTarget} alt="" />
+            <div className="relative">
+              <img src={ArrowTarget} alt="" />
+              <div className="sm:hidden md:block">
+                <Dot />
+              </div>
+            </div>
             <div className=" font-Oxanium">
               <p className=" font-[500]  text-[18px] md:text-[48px] text-[#FCD82B] md:leading-[50px] py-5">
                 Our Mission
@@ -47,7 +53,12 @@ const AboutHero = () => {
                 solutions that exceed expectations.
               </p>
             </div>
-            <img src={Values} alt="" />
+            <div className=" relative">
+              <img src={Values} alt="" />
+              <div className=" sm:hidden md:block">
+                <Dot />
+              </div>
+            </div>
           </div>
         </div>
 

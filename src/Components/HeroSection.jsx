@@ -9,9 +9,9 @@ import Woman1 from "../assets/woman1.png";
 import Woman2 from "../assets/woman2.png";
 import Woman3 from "../assets/woman3.png";
 import Vector from "../assets/Vector.png";
-import Dot from "../assets/Yellow-Dot.png";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer";
+import Dot from "./Dot";
 
 const HeroSection = () => {
   return (
@@ -138,15 +138,16 @@ const HeroSection = () => {
                 the impact we&apos;ve made for our partners.
               </p>
             </div>
-            <div className=" grid gap-3 md:flex items-start justify-center md:gap-10">
-              <div className="">
-                <img src={Woman3} alt="" className=" relative" />
-                <div className=" ">
-                  {/* <img src={Dot} alt="" className="absolute bottom-0" /> */}
+            {/* <div className=" grid gap-10 md:grid md:grid-cols-2 items-start justify-center md:gap-10"> */}
+            <div className=" grid gap-10 md:grid md:grid-cols-2  md:gap-10">
+              <div className="relative">
+                <div className="">
+                  <img src={Woman3} alt="" className=" " />
                 </div>
+                <Dot />
               </div>
               <div className=" max-w-[569px]">
-                <p className=" text-[#FCD82B] font-[500] text-[20px] md:text-[48px] md:leading-[50px]">
+                <p className=" text-[#FCD82B] font-[500] text-[20px] lg:text-[48px] lg:leading-[50px]">
                   Oviva Multisite – multilingual and market-specific
                 </p>
                 <p className=" text-[14px] md:text-[20px] font-[400] pt-5 md:leading-[30px]">
