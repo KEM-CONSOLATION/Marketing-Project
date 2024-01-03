@@ -13,7 +13,7 @@ const BlogHero = () => {
     <div className="">
       <div className=" bg-[#262626] ">
         <div className=" ">
-          <div className="flex items-end mx-5 md:mx-0 pt-20">
+          <div className="flex items-end mx-5 md:mx-10 pt-20">
             <div className="">
               <p className=" font-Oxanium mx-10  2xl:mx-40  pb-3 md:pb-5 font-[700] text-[16px] md:text-[40px] leading-[30px] md:leading-[50px] text-white">
                 The Services we offer spans across different countries.
@@ -33,11 +33,15 @@ const BlogHero = () => {
                 <p className=" text-[20px] lg:text-[40px] font-[500] text-white">
                   {"<"}
                 </p>
-                <p className=" px-3 py-2 bg-[#3CB265]  rounded-xl">Rwanda</p>
-                <p className=" px-3 py-2 bg-[#1A1A1AA6]  rounded-xl">
+                <p className=" px-3 py-2 bg-[#3CB265] text-[12px] md:text-[14px]  rounded-xl">
+                  Rwanda
+                </p>
+                <p className=" px-3 py-2 bg-[#1A1A1AA6] text-[12px] md:text-[14px]  rounded-xl">
                   United States
                 </p>
-                <p className=" px-3 py-2 bg-[#1A1A1AA6]  rounded-xl">Egypt</p>
+                <p className=" px-3 py-2 bg-[#1A1A1AA6] text-[12px] md:text-[14px]  rounded-xl">
+                  Egypt
+                </p>
                 <p className=" lg:text-[40px] font-[500] text-white text-[20px]">
                   {">"}
                 </p>
@@ -136,7 +140,7 @@ const BlogHero = () => {
             <p className=" font-[700] text-[28px] lg:text-[48px] py-5">
               Ai Marketing
             </p>
-            <div className=" grid lg:grid-cols-3 gap-5 ">
+            <div className=" grid sm:grid-cols-2 lg:grid-cols-3 gap-5 ">
               <Card
                 img={Card1}
                 Title="Technology"
@@ -165,7 +169,7 @@ const BlogHero = () => {
             <p className=" font-[700] text-[28px] lg:text-[48px] py-5">
               Content Marketing
             </p>
-            <div className=" grid lg:grid-cols-3 gap-5">
+            <div className=" grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
               <Card
                 img={Card1}
                 Title="Technology"
@@ -208,7 +212,7 @@ const BlogHero = () => {
             <p className=" font-[700] text-[28px] lg:text-[54px] py-5">
               Digital PR
             </p>
-            <div className=" grid lg:grid-cols-3 gap-5 ">
+            <div className=" grid sm:grid-cols-2 lg:grid-cols-3 gap-5 ">
               <Card
                 img={Card1}
                 Title="Technology"

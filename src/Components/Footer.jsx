@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className=" border-t-2 border-t-[#FCD82B] bg-black">
       <div className="max-w-5xl lg:mx-auto mx-5 2xl:max-w-full 2xl:mx-40 py-5 md:py-28 text-white">
-        <div className="grid gap-5 md:flex items-start justify-between  ">
+        <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4   ">
           <div className="  text-white ">
             <p className=" font-[700] text-[24px] py-3 md:py-5">MainReaction</p>
             <p className=" font-[400]  text-[12px] md:text-[16px] py-7 md:py-10">

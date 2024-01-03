@@ -5,10 +5,10 @@ const Testimonials = () => {
   return (
     <div className=" py-20 bg-[#080808] text-white">
       <div className=" text-center">
-        <p className=" font-[700] text-[20px] md:text-[40px] font-Oxanium">
+        <p className=" font-[700] text-[20px] lg:text-[40px] font-Oxanium">
           Testimonials
         </p>
-        <p className=" font-[400] text-[14px] md:text-[20px] max-w-[712px] mx-auto font-Oxanium text-center">
+        <p className=" font-[400] text-[14px] lg:text-[20px] max-w-[712px] mx-auto font-Oxanium text-center">
           Join Main reaction today to stay focused on the reason you&apos;re
           using marketing in the first place: bringing your vision to life.
         </p>

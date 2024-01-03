@@ -9,7 +9,7 @@ const AboutHero = () => {
     <div className=" bg-black">
       <div className=" max-w-[920px] md:mx-auto text-center mx-5  py-10 md:py-20">
         <p className=" font-Oxanium font-[700] text-[30px] md:text-[60px] text-[#FCD82B] max-w-[734px] mx-auto text-center">
-          Crafting <span className=" text-white"> Success in Every Pixel</span>
+          Ctafting <span className=" text-white"> Success in Every Pixel</span>
         </p>
         <p className=" text-white font-[400] text-[14px] md:text-[20px] py-10">
           we&apos;re architects of digital success. With a passion for
@@ -20,7 +20,7 @@ const AboutHero = () => {
 
       <div className=" bg-[#080808] py-28">
         <div className="max-w-5xl md:mx-auto mx-5 2xl:max-w-full 2xl:mx-40">
-          <div className=" md:flex gap-10 items-center  text-white">
+          <div className="grid gap-10 items-center   sm:grid sm:grid-cols-2 md:mx-10 lg:mx-0  text-white">
             <img src={ArrowTarget} alt="" />
             <div className=" font-Oxanium">
               <p className=" font-[500]  text-[18px] md:text-[48px] text-[#FCD82B] md:leading-[50px] py-5">
@@ -35,7 +35,7 @@ const AboutHero = () => {
             </div>
           </div>
 
-          <div className=" md:flex gap-10 items-start  text-white py-20">
+          <div className="grid gap-10 items-center sm:grid sm:grid-cols-2 md:mx-10 lg:mx-0   text-white py-20">
             <div className=" font-Oxanium">
               <p className=" font-[500]  text-[18px] md:text-[48px] text-[#FCD82B] md:leading-[50px] py-5">
                 Our Values
@@ -52,11 +52,6 @@ const AboutHero = () => {
         </div>
 
         <div className="">
-          {/* <div className="">
-            <p className=" font-Oxanium text-[#FCD82B] font-[500] text-[48px] leading-[50px]">
-              Meet Our Team
-            </p>
-          </div> */}
           <div className=" font-Oxanium  max-w-5xl lg:mx-auto text-center mx-5  py-10 md:py-20">
             <p className=" font-[700] text-[20px] md:text-[48px] text-[#FCD82B] max-w-[734px] mx-auto text-center">
               Meet Our Team{" "}
@@ -68,7 +63,7 @@ const AboutHero = () => {
             </p>
 
             <div className="">
-              <div className=" grid lg:flex items-between justify-center gap-5">
+              <div className=" grid sm:grid-cols-2 md:grid-cols-3 lg:flex items-between justify-center gap-5">
                 <img src={Team1} alt="" />
                 <img src={Team3} alt="" />
                 <img src={Team2} alt="" />

@@ -8,9 +8,9 @@ const GetStarted = () => {
           GetStarted
         </p>
 
-        <div className=" grid gap-10 mx-10 lg:mx-0 md:flex items-start justify-center">
+        <div className=" grid gap-10 mx-10 lg:mx-10 md:flex items-start justify-center">
           <div className="">
-            <p className=" font-[400] mb-5 md:mb-16 text-[18px] md:text-[32px] leading-[25px] md:leading-[40px] text-white max-w-[620px] ">
+            <p className=" font-[400] mb-5 md:mb-16 text-[18px] lg:text-[32px] leading-[25px] lg:leading-[40px] text-white max-w-[620px] ">
               Ready to elevate your brand&apos;s digital journey? Let&apos;s get
               started. Choose your path and discover the possibilities with
             </p>
@@ -27,13 +27,13 @@ const GetStarted = () => {
       <div className=" bg-url bg-black bg-cover text-white bg-center h-[430px]">
         <div className=" max-w-5xl mx-10 lg:mx-auto">
           <div className=" grid gap-2 md:flex items-center justify-between py-20 lg:py-40">
-            <p className=" md:w-[510px] leading-[30px] md:leading-[35px] text-[16px] md:text-[26px] font-[500]">
+            <p className=" md:max-w-[450px] leading-[30px] lg:leading-[35px] text-[16px] lg:text-[26px] font-[500]">
               With our well identified service, we can help a lot of companies
               to build their digital presence.
             </p>
             <div className=" flex items-center justify-center gap-10 border-t-2 border-white">
               <div className=" text-center">
-                <p className=" font-[400] text-[30px] md:text-[50px] md:leading-[50px] py-3">
+                <p className=" font-[400] text-[30px] lg:text-[50px] md:leading-[50px] py-3">
                   120%
                 </p>
                 <p className=" font-[400] text-[14px] leading-[14px]">
@@ -41,7 +41,7 @@ const GetStarted = () => {
                 </p>
               </div>
               <div className=" text-center ">
-                <p className=" font-[400] text-[30px] md:text-[50px] md:leading-[50px] py-3">
+                <p className=" font-[400] text-[30px] lg:text-[50px] md:leading-[50px] py-3">
                   120%
                 </p>
                 <p className=" font-[400] text-[14px] leading-[14px]">
