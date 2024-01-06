@@ -9,10 +9,10 @@ const AboutHero = () => {
   return (
     <div className=" bg-black">
       <div className=" max-w-[920px] md:mx-auto text-center mx-5  py-10 md:py-20">
-        <p className=" font-Oxanium font-[700] text-[30px] md:text-[60px] text-[#FCD82B] max-w-[734px] mx-auto text-center">
-          Ctafting <span className=" text-white"> Success in Every Pixel</span>
+        <p className=" font-Oxanium font-[700] text-[30px] lg:text-[60px] md:text-[40px] text-[#FCD82B] max-w-[734px] mx-auto text-center">
+          Crafting <span className=" text-white"> Success in Every Pixel</span>
         </p>
-        <p className=" text-white font-[400] text-[14px] md:text-[20px] py-10">
+        <p className=" text-white font-[400] text-[14px] md:text-[18px] lg:text-[20px] py-10 max-w-[700px] lg:max-w-[934px] mx-auto text-center">
           we&apos;re architects of digital success. With a passion for
           innovation and a commitment to excellence, we embark on a journey to
           redefine the digital landscape for our clients.
